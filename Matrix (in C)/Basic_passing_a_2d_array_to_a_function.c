@@ -20,7 +20,7 @@ int main(){
     int col;
     scanf("%d",&col);
     int mat[row][col];
-    printf("Enter the values of matrix's element (row wise) in increasing order : ");
+    printf("Enter the values of matrix's element (row wise): ");
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
